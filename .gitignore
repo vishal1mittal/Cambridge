@@ -1,0 +1,73 @@
+# ──────────────
+# GLOBAL RULES
+# ──────────────
+
+# Don't upload env files (any depth)
+**/.env
+**/.env.*
+
+# Don't upload log files
+*.log
+
+# macOS & system
+.DS_Store
+Thumbs.db
+
+# ──────────────
+# NODE / JAVASCRIPT
+# ──────────────
+
+# Node modules
+**/node_modules/
+
+# Dist and build outputs
+**/dist/
+**/build/
+
+# Vite / Webpack cache
+**/.vite/
+**/.parcel-cache/
+**/.next/
+**/.turbo/
+
+# Optional lock files (choose one if you want to include)
+package-lock.json
+yarn.lock
+
+# ──────────────
+# PYTHON
+# ──────────────
+
+# Bytecode
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+
+# Virtual environments
+**/venv/
+**/.venv/
+
+# Jupyter / notebook stuff
+**/*.ipynb_checkpoints/
+
+# Pipenv
+**/Pipfile.lock
+
+# ML/data stuff
+**/*.h5
+**/*.pt
+**/*.onnx
+**/*.joblib
+**/*.csv
+**/*.tsv
+
+# ──────────────
+# GIT
+# ──────────────
+
+# Git folder (just in case)
+**/.git/
+
+# Git backups
+*.orig
