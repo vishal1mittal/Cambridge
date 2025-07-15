@@ -1,8 +1,5 @@
----
-
 ## 📄 `README.md` (drop this into your `Cambridge/` root)
 
-```markdown
 # 🎓 Cambridge
 
 A modern, full-stack platform for managing educational institutions. Built to scale — from basic student records to AI-powered features.
